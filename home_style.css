@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("background.png");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar{
+    margin: 40px;
+    display: flex;
+    justify-content:space-between ;
+    width: 40%;
+    overflow: hidden;
+}
+
+
+
+#navbar a{
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover{
+    text-decoration: underline;
+    color: aquamarine;
+}
+
+#navbar a:first-child{
+    text-decoration: underline;
+}
+
+.text{
+    margin: 170px;
+    color: white;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: 200px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-family: 'Dancing Script', 'cursive';
+}
+
+.title{
+    font-size: 90px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.scroll .uil{
+    font-size: 70px;
+    color: white;
+}
+
+.scroll .uil:hover{
+    color: rgba(47,191,193, 0.5);
+}
+
+.mecard{
+    background-color: #2fbfc1;
+    display: flex;
+}
+
+.aboutme{
+    width: 75%;
+}
+.icon img{
+    border-radius: 50%;
+    margin: 200px 100px 0 0;
+}
+
+.heading1{
+    font-size: 50px;
+    color: black;
+    padding: 60px 100px 30px 100px;
+}
+
+.aboutme p{
+    font-size: 30px;
+    width: 50%;
+    color: black;
+    padding:50px 0 50px 100px;
+}
+
+.heading2{
+    font-size: 50px;
+    color: black;
+    padding:0px 100px 30px 100px;
+}
+
+.aboutme hr{
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 4px;
+    margin-left: 100px;
+    border: none;
+}
+
+.skills {
+    padding: 50px 0px 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.skill-item {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0,, 0.7);
+    color: white;
+    font-size: 25px;
+    padding: 5px 15px;
+    text-transform: capitalize;
+    margin: 0 10px 10px 0;
+    border-radius: 20px;
+}
+
+.button1 .resume{
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    padding:15px;
+    border-radius: 25px;
+    width: 25%;
+    margin: 0 35px 0 25px ;
+}
+.button1{
+    padding-bottom: 30px;
+    display: flex;
+    margin-left: 30%;
+}
+
+.resume a{
+    text-decoration: none;
+    color: black;
+}
+
+.project-section{
+    background-color: black;
+}
+
+.works{
+    letter-spacing: 5px;
+    color: antiquewhite;
+    padding-top: 50px;
+    font-size: 60px;
+}
+
+.project{
+    margin-left: 100px;
+}
+
+.project3 , .project2 , .project1{
+    display: flex;
+    margin: 70px 0 70px 0;
+}
+
+.project3 h1,  .project1 h1, .project2  h1{
+    padding-left: 100px;
+    color: aqua;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.project3 p,  .project1 p, .project2  p{
+    padding-left: 100px;
+    color: whitesmoke;
+    font-size: 20px;
+    
+}
+
+.project1{
+    padding-bottom: 80px;
+}
+
+.project img{
+    border: solid;
+    border-width: 5px;
+    border-color:gray ;
+}
+.form{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.label{
+    font-size: 30px !important;
+    text-align: center;
+    display: block;
+}
+
+.input{
+    width: 90%;
+    margin: 20px;
+    padding: 7px;
+    font-size: 17px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.contact-me{
+    font-size: 55px;
+    margin-left:900px;
+}
+
+.contact-card{
+    margin: 30px;
+    padding-top: 15px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    width: 700px;
+}
+
+.form button {
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+}

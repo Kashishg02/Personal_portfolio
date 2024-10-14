@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home_style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Great+Vibes&family=Indie+Flower&family=Nunito&family=Smooch&display=swap" rel="stylesheet">
+  <title>Kashish's Portfolio</title>
+</head>
+<body>
+  
+  <section id="home">
+     <nav id="navbar">
+      <a href="Home_page.html"><i class="uil uil-estate"></i>&nbsp home</a>
+      <a href="#about"><i class="uil uil-user"></i>&nbsp about</a>
+      <a href="#projects"><i class="uil uil-folder-network"></i>&nbsp projects</a>
+      <a href="#contact"><i class="uil uil-envelope"></i>&nbsp contact</a>
+     </nav>
+
+     <div class="text">
+      <span class="name">k</span>
+      <span class="name">a</span>
+      <span class="name">s</span>
+      <span class="name">h</span>
+      <span class="name">i</span>
+      <span class="name">s</span>
+      <span class="name">h</span>
+      <span class="name">&nbsp g</span>
+      <span class="name">a</span>
+      <span class="name">r</span>
+      <span class="name">g</span>
+      <br><br><br><br><br>
+      <span class="title">Web &nbsp</span>
+      <br><br>
+      <span class="title">Developer</span><br><br><br>
+      <center><span class="scroll"><a href="#about"><i class="uil uil-angle-double-down"></i></a></span></center>
+     </div>
+   
+  </section>
+
+  <section id="about">
+    <div class="mecard">
+        <div class="aboutme">
+          <h1 class="heading1"> About Me</h1>
+          <hr>
+          <p> Hi, I'm Kashish Garg and I am currently a 4th year student pursuing bachelor of engineering from Chandigarh University in Computer Science and Engineering .
+            I am a very dedicated, determined person and also passionate towards learning & exploring new things.
+          </p>
+          <h1 class="heading2"> Skills</h1>
+          <hr>
+          <div class="skills">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">javascript</div>
+            <div class="skill-item">Java</div>
+            <div class="skill-item">bootstrap</div>
+            <div class="skill-item">SQL</div>
+          </div>
+
+          <div class="button1">
+            <button class="resume"><a href="F:\personal Portfolio\Kashish_garg_resume.pdf"  target="_blank"> Resume </a></button>
+          </div>
+        </div>
+        <div class="icon">
+          <img src="about_icon.png" alt="" width="400px">
+        </div>
+        <br>
+      
+     
+    </div>
+  </section>
+
+  <section class=" project-section" id="projects">
+    <div class="mywork">
+      <center><h1 class="works">RECENT PROJECTS</h1></center>
+    </div>
+    <div class="project">
+      <div class="project3">
+        <img src="project3.png" alt="" width="650px">
+        <div>
+          <h1>personal portfolio</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, dolores libero earum iste, ipsa aliquam sint adipisci eligendi consequuntur fuga sequi repellat omnis saepe laborum beatae, incidunt necessitatibus amet. Nesciunt!</p>
+        </div>
+      </div>
+      <div class="project2">
+        <img src="project2.png" alt="" width="650px">
+        <div>
+          <h1> k' cafe</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, dolores libero earum iste, ipsa aliquam sint adipisci eligendi consequuntur fuga sequi repellat omnis saepe laborum beatae, incidunt necessitatibus amet. Nesciunt!</p>
+        </div>
+      </div>
+
+      <div class="project1">
+        <img src="project1.gif" alt="" width="650px">
+        <div>
+          <h1> text formatting</h1>
+          <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h1 class="contact-me">Contact Me</h1>
+    <form action="mailto:kashishg002@gmail.com" method="post" id="mail_info" class="form">
+      <div>
+        <img src="Envelope.png" alt="" width="650px">
+      </div>
+      <div class="contact-card">
+        <label for="name" class="label">Name</label>
+        <input type="text" name="name" id="name" placeholder="Your name" class="input">
+
+        <label for="email" class="label">Email</label>
+        <input type="email" name="email" id="email" placeholder="Your email" class="input">
+
+        <label for="message" class="label">Message</label>
+        <textarea name="message" id="message" cols="10" rows="10" placeholder="Please enter your message" class="input"></textarea>
+        <br>
+        <center><button type="submit" form="mail_info" value="Submit">Submit</button></center>
+      </div>
+    </form>
+  </section>
+ 
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+</body>
+</html>
